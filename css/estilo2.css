@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+}
+
+html, body, #login-page {
+    height: 100%;
+}
+
+#container{
+    height: 70%;
+}
+
+.bg-color-{
+    /* background-image: linear-gradient(to right, gray, #ccc); */
+    /* background-color: #536d88; */
+    /* background-color: #e6d1b1; */
+    background-color: #d1cccc;
+}
+
+/***Barra de navegação****/
+nav.navbar-transparente {
+    background: #2b447a;
+    padding: 15px 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(236, 236, 236) !important;
+    font-weight: 100;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #9bf0e1 !important;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1);
+}
+
+.divisor {
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+/***Fim Barra de navegação****/
+
+.color-text{
+    color: #272727;
+}
+
+.btn-t{
+    width: 75%;
+}
+
+.btn-warning{
+    color: white !important;
+    background: #2b447a !important;
+    border: 1px solid #2b447a !important;
+}
+
+.btn-warning:hover{
+    background: #0f5b7e !important;
+    border: 1px solid #0f5b7e !important;
+}
+
+.lista_ingredientes{
+    border: 1px solid rgb(168, 168, 168);
+
+}
+   
+.info00{
+    border: 1px solid red;
+}
+
+
+.cont-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    text-decoration: none !important;
+    color: rgb(236, 236, 236) !important;
+}
+
+.links:hover{
+    color: rgb(236, 236, 236) !important;
+    color: rgb(211, 208, 208) !important;
+}
